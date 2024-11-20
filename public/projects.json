@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Central Pro Services",
+    "description1": "Central Pro Services is a renowned renovation service provider in the United States. I was privileged to contribute to enhancing and streamlining the organization's operations through developing and maintaining software. ",
+    "description2": "- Delivered App Portal for managing Technician's job assignments. \n- Improved software architecture, implemented modern coding and testing principles and CI/CD for faster and more reliable releases.",
+    "technologies": [
+      "React",
+      "Redux-toolkit",
+      "MongoDb",
+      "Node.JS",
+      "Express",
+      "Heroku",
+      "Material UI"
+    ],
+    "websiteLink": "https://www.centralproserv.com/"
+  }
+]
