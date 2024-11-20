@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex justify-left items-center space-x-6 ">
           <Image
-            src="/favicon.ico"
+            src="favicon.ico"
             alt="Arbaz Khan"
             width={40}
             height={40}

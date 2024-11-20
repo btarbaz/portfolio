@@ -24,23 +24,18 @@ export default function Home() {
           <p>Reach me at:</p>
           <Link href="mailto:btarbaz@gmail.com">
             <Image
-              src="/Users/arbazkhan/Code/portfolio_app/public/attherate.png"
+              src="attherate.png"
               alt="mail"
               width={35}
               height={35}
             ></Image>
           </Link>
           <Link href="https://github.com/btarbaz">
-            <Image
-              src="/github.png"
-              alt="github"
-              width={30}
-              height={30}
-            ></Image>
+            <Image src="github.png" alt="github" width={30} height={30}></Image>
           </Link>
           <Link href="https://linkedin.com/in/btarbaz-khan">
             <Image
-              src="/linkedin.png"
+              src="linkedin.png"
               alt="linken"
               width={30}
               height={30}
@@ -135,7 +130,7 @@ export default function Home() {
                 rel="noopenner noreferrer"
               >
                 <Image
-                  src="/website.png"
+                  src="website.png"
                   alt="github"
                   width={20}
                   height={20}
