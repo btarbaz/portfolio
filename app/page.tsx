@@ -24,7 +24,7 @@ export default function Home() {
           <p>Reach me at:</p>
           <Link href="mailto:btarbaz@gmail.com">
             <Image
-              src="/attherate.png"
+              src="/Users/arbazkhan/Code/portfolio_app/public/attherate.png"
               alt="mail"
               width={35}
               height={35}
