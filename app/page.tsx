@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Fragment } from 'react';
 import Image from 'next/image';
 import projects from '../public/projects.json';
+import skills from '../public/skills.json';
 
 export default function Home() {
   return (
@@ -73,22 +74,9 @@ export default function Home() {
           <div className="skills">
             <h3>My Skills</h3>
             <div className="skills-list">
-              <span>JavaScript</span>
-              <span>Typescript</span>
-              <span>React</span>
-              <span>Next.JS</span>
-              <span>MongoDb</span>
-              <span>PostgreSQL</span>
-              <span>Node.JS</span>
-              <span>Express</span>
-              <span>Redux-toolkit</span>
-              <span>TailwindCSS</span>
-              <span>CSS Module</span>
-              <span>Material UI</span>
-              <span>Heroku</span>
-              <span>MongoDb Atlas</span>
-              <span>Mongoose</span>
-              <span>Project Management</span>
+              {skills.map((skill, idx) => (
+                <span key={idx}>{skill}</span>
+              ))}
             </div>
           </div>
         </div>
