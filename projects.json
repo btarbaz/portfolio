@@ -13,5 +13,22 @@
       "Material UI"
     ],
     "websiteLink": "https://www.centralproserv.com/"
+  },
+  {
+    "name": "Issue Tracker",
+    "description1": "The Issue Tracker is a web application I developed to showcase my skills in building functional and scalable tools. This app highlights my focus on performance, usability, and scalability. It's built to handle real-world use cases, providing an organized and seamless issue management experience.",
+    "description2": "- Issues can be sorted by various fields. \n- Issues can be filtered by specific criteria to quickly narrow down relevant results. \n- Paginated views allow users to navigate through issues effortlessly, even with large datasets. \n- Authentication and OAuth integration ensure secure access. \n- Responsive design ensures the app is accessible and user-friendly on desktops, tablets, and mobile devices.",
+    "technologies": [
+      "TypeScript",
+      "Next.JS",
+      "NextAuth",
+      "PostgreSQL",
+      "Prisma",
+      "React-Query",
+      "React-Hook-Forms",
+      "TailwindCSS",
+      "RadixUI"
+    ],
+    "websiteLink": "https://issue-tracker-nine-xi.vercel.app/"
   }
 ]
